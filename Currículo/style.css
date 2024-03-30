@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 03px;
+    background: linear-gradient(45deg, #000000, #fbfbfb);
+}
+
+
+.container 
+{
+    position: center;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ffffff;
+    margin: 90px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+
+.top 
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(45deg, #df1515, #ff0000);
+    padding: 50px;
+}
+
+
+h2
+{
+    font-size: 2em;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+
+h2 span 
+{
+    font-size: 0.9em ;
+    font-weight: 300;
+}
+
+
+.group
+ {
+    position: relative;
+    display: grid;
+    gap: 40px;
+    width: 100%;
+    grid-template-columns: 2fr 3fr;
+}
+
+
+.imgbx img
+{
+    width: 100%;
+    height: auto;
+}
+
+
+p 
+{
+    text-align: justify;
+}
+
+
+.espacamento 
+{
+    letter-spacing: 0.0px;
+}
+
+
+.bottom
+{
+    position: relative;
+    display: grid;
+    margin: 15px 15px 0;
+    gap: 40px;
+    grid-template-columns: 2fr 3fr;
+}
+
+
+.bottom .left_side
+{
+    margin-top: 20px;
+}
+
+
+h4
+{
+    font-size: 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    color: #fff;
+    background: #ff0000;
+    font-weight: 400;
+    padding: 0 3px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+
+.contactInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+
+.contactInfo li
+{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.contactInfo li .icon
+{
+    color: #ff0000;
+}
+
+
+.contactInfo li .text
+{
+    color: #000000;
+}
+
+
+.habilidades
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    margin: 20px 0;
+}
+
+
+.habilidades .habilidadesbox
+{
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 3fr;
+}
+
+
+.habilidades .habilidadesbox p
+{
+    color: #000000;
+}
+
+
+.habilidades .habilidadesbox .value
+{
+    position: relative;
+    width: 100%;
+    height: 10px; 
+    background: #eee;
+}
+
+
+.habilidades .habilidadesbox .value::before
+{
+content: '';
+position: absolute;
+width: var(--i);
+height: 100%;
+background: #ff0000;
+}
+
+h5
+{
+    font-size: 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+    color: #fff;
+    background: #ff0000;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+
+.edu_group
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+
+.edu_groupBx
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+.edu_groupBx p:nth-child(1)
+{
+    font-weight: 500;
+}
+
+
+.edu_groupBx b
+{
+    font-weight: 600;
+    color: #ff0000;
+}
+
+
+.edu_groupBx b span
+{
+    position: relative;
+    top: 2px;
+    font-size: 0.8em;
+    color: #ff0000;
+}
+
+
+.value span 
+{
+    display: inline;
+}

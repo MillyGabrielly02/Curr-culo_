@@ -23,9 +23,9 @@ body
 .container 
 {
     position: center;
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
-    min-height: 1000px;
+    min-height:100vh;
     background: #ffffff;
     margin: 90px;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
